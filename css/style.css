@@ -203,12 +203,13 @@ body {
     margin: 2px 0;
 }
 
-.contact-us{
+.contact-us {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 25px;
 }
+
 .contact-us__category-content {
 
     display: flex;
@@ -221,4 +222,31 @@ body {
     background-color: var(--color-1);
     margin: 0 10px;
     border-radius: 100px;
+
+}
+
+@media only screen and (min-width: 769px) {
+    .header {
+        padding: var(--padding-x-desktop);
+    }
+
+    .main {
+        padding: 0 25%;
+    }
+
+    .main-banner__article {
+        display: flex;
+    }
+
+    .about-us__article {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .food-menu__menu, .services__types{
+        flex-direction: row;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-around;
+    }
 }
