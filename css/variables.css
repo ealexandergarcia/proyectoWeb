@@ -16,3 +16,14 @@ p{
     color: var(--color-2);
     margin: 0;
 }
+
+.primary-button{
+    width: 150px;
+    height: 40px;
+    background-color: var(--color-1);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-5);
+}
