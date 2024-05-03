@@ -4,3 +4,19 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+
+body{
+    background-color: var(--color-3);
+    padding: var(--padding-x);
+}
+.header__section{
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo{
+    width: 25px;
+}
+
+.header__options{
+    display: none;
+}

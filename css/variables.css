@@ -5,4 +5,9 @@
     --color-4:#000;
     --color-5:#ffefe8;
     --color-6-:#2c2b47;
+    --padding-x: 0 20px
+}
+
+h1,h2,h3{
+    color: var(--color-1);
 }
