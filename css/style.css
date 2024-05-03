@@ -23,7 +23,7 @@ body{
 .main-banner{
     margin-top: 30px;
 }
-.main-banner__text-content, .about-us__text-content, .food-menu__content{
+.main-banner__text-content, .about-us__text-content, .food-menu__content, .services__content{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,33 +47,36 @@ body{
     align-items: center;
 }
 .main-banner__img, .about-us__img{
-    width: 60%;
+    width: 250px;
 }
-.about-us, .food-menu{
+.about-us, .food-menu, .services__content{
     margin-top: 80px;
 }
-.about-us__title, .food-menu__title{
+.about-us__title, .food-menu__title, .services__title{
     font-size: 1.1rem;
+    margin-bottom: 15px;
 }
-.about-us__first-text, .food-menu__text{
-    font-size: 1.8rem;
+.about-us__first-text, .food-menu__text, .services__text{
+    font-size: 1.9rem;
     margin-bottom: 30px;
 }
 .about-us__second-text{
     font-size: 1.1rem;
     margin-bottom: 30px;
 }
-.food-menu__menu{
+.food-menu__menu, .services__types{
     display: flex;
     flex-direction: column;
     gap: 35px;
 }
-.food-menu__card{
+.food-menu__card, .services__card{
     width: 350px;
     height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.food-menu__card{
     background-color: var(--color-5);
 }
 .card__fav{
@@ -86,19 +89,25 @@ body{
     background-color: var(--color-1);
     margin-right: 10px;
 }
-.card__img{
+.card__img, .services-card__img{
     width: 200px;
     height: 200px;
 }
 .card__title{
     font-size: 1.6rem;
 }
-.card__description, .card__price{
-    font-size: 1.125rem;
+.card__description, .card__price, .services-card__description{
+    font-size: 1.2rem;
 }
 .card__description{
     color: var(--color-4);
 }
 .card__price{
     color: var(--color-1);
+}
+.services-card__content{
+ padding: 0 30px;   
+}
+.services-card__title{
+    font-size: 1.5rem;
 }
