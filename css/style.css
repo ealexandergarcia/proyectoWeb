@@ -23,7 +23,7 @@ body{
 .main-banner{
     margin-top: 30px;
 }
-.main-banner__text-content, .about-us__text-content{
+.main-banner__text-content, .about-us__text-content, .food-menu__content{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,17 +49,56 @@ body{
 .main-banner__img, .about-us__img{
     width: 60%;
 }
-.about-us{
+.about-us, .food-menu{
     margin-top: 80px;
 }
-.about-us__title{
+.about-us__title, .food-menu__title{
     font-size: 1.1rem;
 }
-.about-us__first-text{
+.about-us__first-text, .food-menu__text{
     font-size: 1.8rem;
     margin-bottom: 30px;
 }
 .about-us__second-text{
     font-size: 1.1rem;
     margin-bottom: 30px;
+}
+.food-menu__menu{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.food-menu__card{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-5);
+}
+.card__fav{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    background-color: var(--color-1);
+    margin-right: 10px;
+}
+.card__img{
+    width: 200px;
+    height: 200px;
+}
+.card__title{
+    font-size: 1.6rem;
+}
+.card__description, .card__price{
+    font-size: 1.125rem;
+}
+.card__description{
+    color: var(--color-4);
+}
+.card__price{
+    color: var(--color-1);
 }
